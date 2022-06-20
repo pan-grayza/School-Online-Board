@@ -1,0 +1,20 @@
+import React from 'react'
+
+export const FilledHeartSVG = () => {
+    return (
+        <svg
+            id="edyEutne8sp1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 0 490.4 490.4"
+            shapeRendering="geometricPrecision"
+            textRendering="geometricPrecision"
+        >
+            <g>
+                <g>
+                    <path d="M222.5,453.7c6.1,6.1,14.3,9.5,22.9,9.5c8.5,0,16.9-3.5,22.9-9.5L448,274c27.3-27.3,42.3-63.6,42.4-102.1c0-38.6-15-74.9-42.3-102.2s-63.5-42.3-102.1-42.3c-37.9,0-73.6,14.5-100.7,40.9-27.2-26.5-63-41.1-101-41.1-38.5,0-74.7,15-102,42.2C15,96.7,0,133,0,171.6c0,38.5,15.1,74.8,42.4,102.1l180.1,180Z" />
+                </g>
+            </g>
+        </svg>
+    )
+}
