@@ -3,3 +3,11 @@
     display: flex;
     flex-direction: row;
 }
+
+.tabs_and_instruments_section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}

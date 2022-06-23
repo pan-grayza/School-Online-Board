@@ -1,0 +1,11 @@
+.board_tab {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex_row {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}

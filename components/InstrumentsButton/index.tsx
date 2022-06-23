@@ -10,7 +10,7 @@ type Props = PropsWithChildren<{
     transition?: string
 }>
 
-const ButtonWithHover = ({
+const InstrumentsButton = ({
     padding,
     width,
     height,
@@ -25,6 +25,7 @@ const ButtonWithHover = ({
                 padding: padding,
                 width: width,
                 height: height,
+                borderRadius: borderRadius,
             }}
             className={styles.button}
         >
@@ -41,4 +42,4 @@ const ButtonWithHover = ({
     )
 }
 
-export default ButtonWithHover
+export default InstrumentsButton

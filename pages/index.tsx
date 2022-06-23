@@ -4,6 +4,8 @@ import Image from 'next/image'
 
 import Sidebar from '../components/Sidebar/index'
 import TabBar from '../components/TabBar/index'
+import BoardTab from '../components/BoardTab/index'
+
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -19,7 +21,10 @@ const Home: NextPage = () => {
             </Head>
 
             <Sidebar />
-            <TabBar />
+            <div className={styles.tabs_and_instruments_section}>
+                <TabBar />
+                <BoardTab />
+            </div>
         </div>
     )
 }
