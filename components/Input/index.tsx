@@ -1,5 +1,4 @@
-import React, {PropsWithChildren} from 'react'
-import styles from './styles.module.css'
+import React, {PropsWithChildren, useState} from 'react'
 
 type Props = PropsWithChildren<{
     padding?: string
@@ -19,6 +18,10 @@ const Input = ({
     placeholder = '',
     children,
 }: Props) => {
+    const [value, setValue] = useState('')
+    const onChange: React.ChangeEventHandler<HTMLInputElement> = (e) => {
+        setValue(e.target.value)
+    }
     return (
         <input
             style={{
@@ -29,8 +32,9 @@ const Input = ({
             }}
             placeholder={placeholder}
             type={type}
-            className={styles.input}
-            value="4px"
+            className="relative flex flex-row text-center bg-primary-50 border-none outline-none focus:border-secondary-400 focus:border-2 focus:border-solid"
+            value={value}
+            onChange={onChange}
         >
             {children}
         </input>

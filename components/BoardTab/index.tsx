@@ -1,5 +1,4 @@
 import React from 'react'
-import styles from './styles.module.css'
 
 import Canvas from '../Canvas/index'
 
@@ -7,7 +6,7 @@ import InstrumentsBar from '../InstrumentsBar/index'
 
 const BoardTab = () => {
     return (
-        <div className={styles.board_tab}>
+        <div className="flex flex-col relative h-[calc(100vh-2.75rem)] w-full">
             <Canvas />
 
             <InstrumentsBar />

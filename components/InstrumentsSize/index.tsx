@@ -1,36 +1,32 @@
 import React from 'react'
-import styles from './styles.module.css'
 import MinusSVG from '../../public/SVGs/instruments/Size/MinusSVG'
 import PlusSVG from '../../public/SVGs/instruments/Size/PlusSVG'
-import InvisibleButtonWithHover from '../InvisibleButtonWithHover/index'
+import ButtonWithHover from '../ButtonWithHover/index'
 import Input from '../Input/index'
 
 const InstrumentsSize = () => {
     return (
-        <div className={styles.size_section}>
-            <div className={`${styles.size_container} ${styles.container}`}>
-                <div className={styles.representation_section}>
-                    <InvisibleButtonWithHover
-                        width="2rem"
-                        height="2rem"
-                        borderRadius="0.5rem"
-                    >
-                        <MinusSVG />
-                    </InvisibleButtonWithHover>
+        <div className="relative flex flex-col justify-center items-center gap-1">
+            <div className="relative flex flex-row justify-center items-center gap-1">
+                <ButtonWithHover
+                    width="2rem"
+                    height="2rem"
+                    borderRadius="0.5rem"
+                >
+                    <MinusSVG />
+                </ButtonWithHover>
 
-                    <div className={styles.size_representation}>
-                        <div className={styles.circle_representation}></div>
-                    </div>
-                    <InvisibleButtonWithHover
-                        width="2rem"
-                        height="2rem"
-                        borderRadius="0.5rem"
-                    >
-                        <PlusSVG />
-                    </InvisibleButtonWithHover>
+                <div className="relative flex justify-center items-center w-12 h-12 rounded-lg bg-white">
+                    <div className="relative w-1 h-1 bg-primary-900 rounded-full"></div>
                 </div>
+                <ButtonWithHover
+                    width="2rem"
+                    height="2rem"
+                    borderRadius="0.5rem"
+                >
+                    <PlusSVG />
+                </ButtonWithHover>
             </div>
-            <Input width="3rem" height="1.5rem" borderRadius="0.5rem" />
         </div>
     )
 }

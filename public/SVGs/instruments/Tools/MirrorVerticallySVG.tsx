@@ -1,6 +1,6 @@
 import React from 'react'
 
-const MirrorSVG = () => {
+const MirrorVerticallySVG = () => {
     return (
         <svg
             version="1.1"
@@ -67,4 +67,4 @@ const MirrorSVG = () => {
     )
 }
 
-export default MirrorSVG
+export default MirrorVerticallySVG
