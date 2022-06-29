@@ -1,17 +1,13 @@
 import React from 'react'
 
-import InstrumentsBasicTools from '../InstrumentsBasicTools/index'
+import InstrumentsTools from '../InstrumentsTools/index'
 import InstrumentsSize from '../InstrumentsSize/index'
-import InstrumentsSecondaryTools from '../InstrumentsTools/index'
-import InstrumentsColors from '../InstrumentsColors/index'
 
 const InstrumentsBar = () => {
     return (
-        <div className="relative flex flex-row shrink-0 justify-center items-center h-24  gap-4 bg-primary-100 ">
-            <InstrumentsBasicTools />
+        <div className="fixed bottom-0 self-center flex flex-row justify-center items-center h-24 w-fit p-6 rounded-t-lg gap-4 bg-primary-100 ">
+            <InstrumentsTools />
             <InstrumentsSize />
-            <InstrumentsSecondaryTools />
-            <InstrumentsColors />
         </div>
     )
 }

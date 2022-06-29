@@ -6,7 +6,7 @@ import InstrumentsBar from '../InstrumentsBar/index'
 
 const BoardTab = () => {
     return (
-        <div className="flex flex-col relative h-[calc(100vh-2.75rem)] w-full">
+        <div className="flex flex-col relative h-full w-full">
             <Canvas />
 
             <InstrumentsBar />

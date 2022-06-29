@@ -8,7 +8,7 @@ const Canvas = ({backgroundColor = '#ffffff'}: Props) => {
     return (
         <div
             style={{backgroundColor: backgroundColor}}
-            className="relative flex h-full w-full"
+            className="h-screen w-screen"
         ></div>
     )
 }

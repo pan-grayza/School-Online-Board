@@ -7,7 +7,7 @@ import MyBoardsSVG from '../../public/SVGs/tabbar/MyBoardsSVG'
 
 const TabBar = () => {
     return (
-        <div className="relative flex flex-row align-end items-center w-full h-12 bg-primary-100">
+        <div className="fixed top-0 self-center flex flex-row align-end items-center w-full h-12 bg-primary-100 z-10">
             <div className="relative flex justify-center items-center w-24 h-16 child:w-10 child:h-10">
                 <MainLogoSVG />
             </div>
