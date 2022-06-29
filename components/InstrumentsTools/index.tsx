@@ -4,8 +4,8 @@ import ButtonWithHover from '../ButtonWithHover/index'
 //Tools
 import PencilSVG from '../../public/SVGs/instruments/BasicTools/PencilSVG'
 import EraserSVG from '../../public/SVGs/instruments/BasicTools/EraserSVG'
-import TextSVG from '../../public/SVGs/instruments/Tools/TextSVG'
-import CursorSVG from '../../public/SVGs/instruments/Tools/CursorSVG'
+import TextSVG from '../../public/SVGs/instruments/BasicTools/TextSVG'
+import CursorSVG from '../../public/SVGs/instruments/BasicTools/CursorSVG'
 import LineSVG from '../../public/SVGs/instruments/BasicTools/LineSVG'
 import ArrowSVG from '../../public/SVGs/instruments/BasicTools/ArrowSVG'
 
